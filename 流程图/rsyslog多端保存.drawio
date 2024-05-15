@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T02:44:43.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="YAQCUPt75VwUZ7Caz_AT" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T04:08:39.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="323yB_Jmis0ThqYV6wQr" version="24.4.0" type="github">
   <diagram name="第 1 页" id="3GK4XjDo3rnSE49FeAwm">
-    <mxGraphModel dx="668" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="629" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,10 +10,10 @@
         <mxCell id="2FWtVGp8L67Mfe2lLaM1-2" value="服务器centos7.6&lt;br&gt;10.1.1.30" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="240" y="290" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2FWtVGp8L67Mfe2lLaM1-3" value="服务器ubuntu24.04&lt;br&gt;10.1.1.21&lt;div&gt;主rsyslog服务器&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
+        <mxCell id="2FWtVGp8L67Mfe2lLaM1-3" value="服务器ubuntu24.04&lt;br&gt;10.1.1.24&lt;div&gt;主rsyslog服务器&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="340" y="430" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="2FWtVGp8L67Mfe2lLaM1-5" value="服务器ubuntu22.04&lt;br&gt;10.0.0.31&lt;div&gt;pg服务器&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
+        <mxCell id="2FWtVGp8L67Mfe2lLaM1-5" value="服务器ubuntu24.04&lt;br&gt;10.1.1.22&lt;div&gt;mariadb服务器&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="510" y="550" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2FWtVGp8L67Mfe2lLaM1-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2FWtVGp8L67Mfe2lLaM1-2" target="2FWtVGp8L67Mfe2lLaM1-3" edge="1">
@@ -28,8 +28,8 @@
             <mxPoint x="410" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2FWtVGp8L67Mfe2lLaM1-8" value="发送日志数据 tcp/udp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="315" y="380" width="140" height="30" as="geometry" />
+        <mxCell id="2FWtVGp8L67Mfe2lLaM1-8" value="发送日志数据 tcp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="330" y="380" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2FWtVGp8L67Mfe2lLaM1-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="2FWtVGp8L67Mfe2lLaM1-3" target="2FWtVGp8L67Mfe2lLaM1-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
