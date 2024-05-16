@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T16:57:03.895Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.0" etag="kzU5_TjMTZTmP3M7spD6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-16T17:07:27.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="NmTiRKTFa3rVA0OoE7Ar" version="24.4.3" type="github">
   <diagram name="第 1 页" id="abevQy357FWygZokNlPs">
-    <mxGraphModel>
+    <mxGraphModel dx="1029" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-S-DOBEuWKiJFNo5bH_O-1" target="-S-DOBEuWKiJFNo5bH_O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-1" value="互联网" style="image;html=1;image=img/lib/clip_art/computers/Network_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-2" value="&lt;b&gt;LVS NAT模式实验&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-S-DOBEuWKiJFNo5bH_O-3" target="-S-DOBEuWKiJFNo5bH_O-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-3" value="windows主机&lt;br&gt;192.168.50.11" style="image;html=1;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-S-DOBEuWKiJFNo5bH_O-5" target="-S-DOBEuWKiJFNo5bH_O-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-S-DOBEuWKiJFNo5bH_O-5" target="-S-DOBEuWKiJFNo5bH_O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-5" value="两个网卡，一个为net模式，一个为仅主机模式" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="414" y="90" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-6" value="eth0&lt;br&gt;172.30.30.31" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="690" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-7" value="eth0&lt;br&gt;172.30.30.32" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="690" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-13" value="eth0&lt;br&gt;10.1.1.32" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="133" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-S-DOBEuWKiJFNo5bH_O-14" value="eth1&lt;br&gt;172.30.30.30" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="133" width="90" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
