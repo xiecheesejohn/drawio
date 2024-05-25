@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T14:49:09.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.4.8" etag="tnzITFHiGkgmnXQXoZpn" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T15:08:43.567Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="IgIQzXbTDQ7IHU2h1xn8" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Py1lkkveGodBWNxF6Dnj">
-    <mxGraphModel>
+    <mxGraphModel dx="2014" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-1" value="五台服务器，做跨域代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=23;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="274" y="10" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-2" target="j-RdDivKJmQbO4qVWRSI-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-2" target="j-RdDivKJmQbO4qVWRSI-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-11" value="http" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-RdDivKJmQbO4qVWRSI-10">
+          <mxGeometry x="-0.6605" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-2" value="10.1.1.36&lt;br&gt;172.30.30.10&lt;br&gt;nginx代理服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="140" y="240" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-5" target="j-RdDivKJmQbO4qVWRSI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-5" value="172.30.30.22&lt;br&gt;PHP服务器002&lt;div&gt;（wordpress和phpmyadmin）&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="371" y="300" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-4" target="j-RdDivKJmQbO4qVWRSI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-4" target="j-RdDivKJmQbO4qVWRSI-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-20" value="mysql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-RdDivKJmQbO4qVWRSI-17">
+          <mxGeometry x="0.4951" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-4" value="172.30.30.21&lt;br&gt;PHP服务器001&lt;div&gt;（wordpress和phpmyadmin）&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="371" y="160" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-5" target="j-RdDivKJmQbO4qVWRSI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-15" value="session" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=default;textShadow=0;" vertex="1" connectable="0" parent="j-RdDivKJmQbO4qVWRSI-14">
+          <mxGeometry x="0.004" y="1" relative="1" as="geometry">
+            <mxPoint x="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-6" value="172.30.30.28&lt;br&gt;mariadb服务器&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="680" y="210" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-7" value="172.30.30.29&lt;br&gt;redis服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="540" y="430" width="86" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-21" target="j-RdDivKJmQbO4qVWRSI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-23" value="https" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="j-RdDivKJmQbO4qVWRSI-22">
+          <mxGeometry x="0.0303" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-21" value="10.1.1.1" style="image;html=1;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-80" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
