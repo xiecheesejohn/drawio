@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T15:17:22.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nRFCEZJBwb21ACihr1MR" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T15:20:56.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="zR_EvGR_RKE7iQFBwls8" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Py1lkkveGodBWNxF6Dnj">
     <mxGraphModel dx="2014" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
         <mxCell id="yi93GeM3Pbg8HBaEtl4t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-2" target="yi93GeM3Pbg8HBaEtl4t-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j-RdDivKJmQbO4qVWRSI-2" value="10.1.1.36&lt;br&gt;172.30.30.10&lt;br&gt;nginx代理服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
+        <mxCell id="j-RdDivKJmQbO4qVWRSI-2" value="10.1.1.36&lt;br&gt;172.30.30.10&lt;div&gt;&lt;div&gt;nginx代理服务器&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;wordpress服务域名为www.home.xieziqiang&lt;/div&gt;&lt;div&gt;phpmyadmin服务域名为mysql.home.xieziqiang&lt;/div&gt;" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-300" y="320" width="86" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j-RdDivKJmQbO4qVWRSI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="j-RdDivKJmQbO4qVWRSI-5" target="j-RdDivKJmQbO4qVWRSI-6" edge="1">
@@ -73,7 +73,7 @@
           <mxGeometry x="-520" y="310" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yi93GeM3Pbg8HBaEtl4t-1" value="10.1.1.21&lt;br&gt;DNS服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="-386" y="490" width="86" height="60" as="geometry" />
+          <mxGeometry x="-413" y="490" width="86" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
