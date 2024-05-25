@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-25T15:11:37.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="yEx_4Vs6Rp4It6XJXjFT" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-25T15:17:22.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="nRFCEZJBwb21ACihr1MR" version="24.4.8" type="github">
   <diagram name="第 1 页" id="Py1lkkveGodBWNxF6Dnj">
-    <mxGraphModel dx="2845" dy="1214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2014" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,6 +17,9 @@
           <mxGeometry x="-0.6605" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yi93GeM3Pbg8HBaEtl4t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-2" target="yi93GeM3Pbg8HBaEtl4t-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j-RdDivKJmQbO4qVWRSI-2" value="10.1.1.36&lt;br&gt;172.30.30.10&lt;br&gt;nginx代理服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" parent="1" vertex="1">
           <mxGeometry x="-300" y="320" width="86" height="60" as="geometry" />
@@ -63,8 +66,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yi93GeM3Pbg8HBaEtl4t-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j-RdDivKJmQbO4qVWRSI-21" target="yi93GeM3Pbg8HBaEtl4t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j-RdDivKJmQbO4qVWRSI-21" value="10.1.1.1" style="image;html=1;image=img/lib/clip_art/computers/Monitor_Tower_128x128.png" parent="1" vertex="1">
           <mxGeometry x="-520" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yi93GeM3Pbg8HBaEtl4t-1" value="10.1.1.21&lt;br&gt;DNS服务器" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="-386" y="490" width="86" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
